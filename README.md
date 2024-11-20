@@ -4,6 +4,7 @@
 
 ---
 
+![Linguix Screenshot](www/pics/Linguix.png)
 ### Features
 
 - **Random Word Extraction**: Choose a random word from the entire Italian vocabulary or from specific categories.
