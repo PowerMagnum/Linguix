@@ -30,7 +30,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/linguix.git
+   git clone git@github.com:PowerMagnum/Linguix.git
    cd linguix
    ```
 
@@ -41,7 +41,7 @@
 
 3. **Start the server**:
    ```bash
-   node app.js
+   node .
    ```
 
 4. **Access the application**:

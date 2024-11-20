@@ -1,0 +1,95 @@
+.sillaba {
+    text-decoration: underline 4px;
+    margin-right: 10px; /* Spazio tra le sillabe */
+    text-underline-offset: 8px;
+  }
+  .spazio {
+      display: inline-block;
+      width: 20px; /* Distanziamento maggiore per lo spazio */
+  }
+
+
+  @font-face {
+      font-family: personal;
+      src: url(assets/fonts/Workspace.otf);
+  }
+
+  @font-face {
+      font-family: personal-arabic;
+      src: url(assets/fonts/ShadowsIntoLightTwo-Regular.ttf);
+  }
+
+  * {
+      font-family: personal;
+  }
+
+  html, body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      flex-direction: column;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+  }
+
+  #parolaContainer {
+      font-size: 75px;
+      margin: 10px;
+      padding: 0;
+  }
+  #traduzioni {
+      font-size: 45px;
+      word-break: normal;
+      word-wrap: normal;
+      font-family: personal-arabic;
+  }
+  #containerImmagine{
+      max-height: 50vh;
+      max-width: 75vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+  }
+  #immagine{
+      max-height: 100%;
+      max-width: 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+      overflow: hidden;
+  }
+  .btn{
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 10px;
+  }
+  .form-select{
+      width: auto;
+  }
+
+  .sillaba:hover{
+      filter: drop-shadow(2px 2px 4px rgb(20, 220, 47));
+      cursor: pointer;
+  }
+  #colore{
+      position: absolute;
+      left: 10px;
+      top: 10px;
+  }
+  .checkbox-container {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      z-index: 1000;
+  }
+  .hidden {
+      display: none;
+  }
+  #text-bar{
+      position: absolute;
+      bottom: 10px;
+      width: 75vw;
+  }

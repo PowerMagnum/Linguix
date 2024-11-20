@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Linguix</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script language="javascript" type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+    <script language="javascript" type="text/javascript" src="assets/js/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>  
+    <div id="containerImmagine"></div>
+    <p id="parolaContainer"></p>
+    <p id="traduzioni"></p>
+    <button class="btn btn-lg btn-primary generator" id="fetchButton">Ottieni parola casuale</button>
+    <select class="form-select generator" name="fs2" id="fs2" style="font-size:1.1em;">
+        <option value="0" selected="selected">Dizionario completo</option>
+        <option value="1">Dizionario semplice</option>
+        <option value="2">Cibo</option>
+        <option value="3">Animali</option>
+        <option value="4">Colori</option>
+        <option value="5">Corpo umano</option>
+        <option value="6">Educazione</option>
+        <option value="7">Famiglia</option>
+        <option value="8">Figure geometriche</option>
+        <option value="9">Mezzi di comunicazione</option>
+        <option value="10">Numeri</option>
+        <option value="11">Numeri da 0 a 9</option>          
+        <option value="12">Professioni</option>
+        <option value="13">Trasporto</option>
+    </select>
+    <div id="pulsantiera">
+        <button class="btn btn-primary" id="translate">Traduci</button>
+        <button class="btn btn-primary" id="visualizza">Visualizza</button>
+        <button class="btn btn-primary" id="googleImg">Cerca su google</button>
+    </div>
+
+    <form id="colore">
+        <input type="color" class="form-control form-control-color" id="myColor" value="#00FF00" title="Choose a color">
+    </form>
+
+    <div id="text-bar" class="hidden">
+        <div class="container mt-3">
+            <div class="input-group">
+                <input type="text" id="testoLibero" class="form-control" placeholder="Scrivi qui..." aria-label="Barra di testo">
+            </div>
+        </div>
+    </div>
+
+    <div class="checkbox-container">
+        <input type="checkbox" id="toggle-bar">
+        <label for="toggle-bar">Testo libero</label>
+    </div>
+
+    <script language="javascript" type="text/javascript" src="assets/js/sillabe.js"></script>
+    <script language="javascript" type="text/javascript" src="assets/js/index.js"></script>
+</body>
+
+</html>
